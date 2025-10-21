@@ -40,10 +40,10 @@ Main Goals:
 3. TOOLS AND TECHNOLOGIES:
 
 	    Category                  Tools / Libraries 
-⦁	Programming Language   :	  Python
-⦁	Libraries Used	        :	  Pandas, datetime, matplotlib/seaborn for visualization
-⦁	Datasets	      	      :	  borrow_history.csv, read_log.csv
-⦁	Output File	      	    :	  user_activity_report.csv
+* 	Programming Language   :	  Python
+* 	Libraries Used	        :	  Pandas, datetime, matplotlib/seaborn for visualization
+* 	Datasets	      	    :	  borrow_history.csv, read_log.csv
+* 	Output File	      	    :	  user_activity_report.csv
 
 
 4. DATASET DESCRIPTION:
