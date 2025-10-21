@@ -1,4 +1,4 @@
-					                                               LIBRARY USER CLASSIFICATION - PROJECT REPORT
+				LIBRARY USER CLASSIFICATION - PROJECT REPORT
 
 
 1.	ABSTARCT:
@@ -48,46 +48,46 @@ Main Goals:
 
 4. DATASET DESCRIPTION:
 
-⦁	Borrowing History (borrow_history.csv)
+* 	Borrowing History (borrow_history.csv)
 	  Contains: Student_ID, Book_ID, Borrow_Date, Return_Date
-⦁	Study Log (read_log.csv)
+* 	Study Log (read_log.csv)
 	  Contains: Student_ID, Date, In_Time, Out_Time
 
 
 5. DATA CLEANING:
 
 To Ensure accuracy:
-⦁	Standardized Student_ID values as strings.
-⦁	Converted In_Time and Out_Time to datetime format.
-⦁	Calculated study durations in hours.
-⦁	Removed missing or inconsistent values.
+*	Standardized Student_ID values as strings.
+*	Converted In_Time and Out_Time to datetime format.
+*	Calculated study durations in hours.
+*	Removed missing or inconsistent values.
 
 
 6. PURPOSE OF ANALYSIS:
 
-⦁	Understand student usage patterns across reading and borrowing.
-⦁	Identify top engaged and inactive users.
-⦁	Support resource planning and book circulation improvements.
-⦁	Recognize and reward consistently active students.
+*	Understand student usage patterns across reading and borrowing.
+*	Identify top engaged and inactive users.
+*	Support resource planning and book circulation improvements.
+*	Recognize and reward consistently active students.
 
  
 7. METHODOLGY:
 
-⦁	Data Input:
+*	Data Input:
 	Loaded data from borrow_history.csv and read_log.csv using pandas.
-⦁	Data Processing:
+*	Data Processing:
 	Cleaned, formatted, and aggregated both datasets.
-⦁	Feature Creation:
+*	Feature Creation:
    	* Borrow_Count
    	* Total_Study_Hours
    	* Study_Days
-⦁	Classification Logic:
+*	Classification Logic:
 	Based on thresholds of borrowing and study hours, users are labeled as:
 	* Frequent
    	* Moderate
    	* Rare
    	* Inactive
-⦁	Output:
+*	Output:
 	   Final results saved in user_activity_report.csv.
 
 
@@ -96,9 +96,9 @@ To Ensure accuracy:
 	This project successfully integrates both borrowing and study activity to measure student engagement more accurately.
 By identifying user patterns, libraries can:
 
-⦁	Recognize and reward top users
-⦁	Motivate casual and inactive readers
-⦁	Plan better resource allocation and service improvements
+*	Recognize and reward top users
+*	Motivate casual and inactive readers
+*	Plan better resource allocation and service improvements
 
 This analysis forms a foundation for advanced analytics such as trend tracking, predictive modeling, and personalized reading recommendations.
 
